@@ -1,0 +1,25 @@
+{
+  "columns": [
+    "timestamp",
+    "holiday",
+    "rentals_lag24",
+    "rentals_lag168",
+    "temperature_lag24",
+    "humidity_lag24",
+    "wind_speed_lag24",
+    "visibility_lag24",
+    "dew_point_lag24",
+    "solar_lag24",
+    "rainfall_lag24",
+    "snowfall_lag24"
+  ],
+  "calendar": "timestamp and holiday known before forecast day",
+  "historical_inputs": "rentals_lag24, rentals_lag168 and each *_lag24 weather value refer to that timestamp minus the stated hours",
+  "availability_assumption": "prior day complete at local midnight, no reporting delay",
+  "never_inputs": [
+    "same-day rentals",
+    "same-day measured weather",
+    "actual Functioning Day"
+  ],
+  "missingness": "rental lags must be observed nonnegative integers; learned models median-impute missing weather lags only"
+}

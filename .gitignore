@@ -39,3 +39,9 @@ Thumbs.db
 !CRISP-DM/outputs/example_profiles.csv
 !CRISP-DM/outputs/run_manifest.json
 !CRISP-DM/outputs/test_predictions.csv
+
+# SEMMA final submission artifacts
+!SEMMA/outputs/demand_pipeline.joblib
+!SEMMA/outputs/example_profiles.csv
+!SEMMA/outputs/run_manifest.json
+!SEMMA/outputs/test_predictions.csv

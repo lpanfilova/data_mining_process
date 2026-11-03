@@ -1,0 +1,13 @@
+{
+  "development_selected_candidate": "ridge",
+  "selection_rule": "minimum mean expanding-window validation MAE",
+  "test_primary_metric_improved": false,
+  "ridge_promotion_supported": false,
+  "validation_ridge_mae_skill": 0.044563442902205486,
+  "ridge_validation_folds_with_lower_mae": 2,
+  "uncertainty_interpretation": "exploratory eight-week resampling; no equivalence or non-inferiority claim",
+  "test_role": "reused benchmark after review",
+  "conclusion": "Ridge does not improve observed primary test MAE; no demonstrated superiority or non-inferiority",
+  "artifact_role": "archived development-selected candidate for reproducible study, not operational recommendation",
+  "next_step": "Keep persistence as reference; obtain new dated evidence and decision costs before changing policy"
+}

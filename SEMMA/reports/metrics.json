@@ -1,0 +1,29 @@
+{
+  "selected_model": "ridge",
+  "seed": 42,
+  "test_role": "reused chronological benchmark; not independent confirmation",
+  "development_rows": 7248,
+  "test_rows": 1344,
+  "development_start": "2017-12-08 00:00:00",
+  "development_end": "2018-10-05 23:00:00",
+  "test_start": "2018-10-06 00:00:00",
+  "test_end": "2018-11-30 23:00:00",
+  "selected": {
+    "mae": 330.7551292799832,
+    "rmse": 439.14604315254144,
+    "r2": 0.4133936043708636,
+    "rmsle": 2.0404586392982504
+  },
+  "previous_day": {
+    "mae": 301.3668154761905,
+    "rmse": 516.9601530593925,
+    "r2": 0.1870890300416832,
+    "rmsle": 2.608201710949565
+  },
+  "mae_difference": 29.388313803792673,
+  "paired_week_block_95_interval": {
+    "lower": -42.73739040159208,
+    "upper": 98.29910015270785
+  },
+  "mae_reduction_percent": -9.75167546478406
+}

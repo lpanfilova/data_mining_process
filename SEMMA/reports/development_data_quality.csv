@@ -1,0 +1,16 @@
+,type,missing,distinct
+Date,str,0,309
+rentals,int64,0,2063
+Hour,int64,0,24
+temperature,float64,0,546
+humidity,int64,0,90
+wind_speed,float64,0,64
+visibility,int64,0,1733
+dew_point,float64,0,556
+solar,float64,0,345
+rainfall,float64,0,58
+snowfall,float64,0,45
+Seasons,str,0,4
+holiday,str,0,2
+functioning,str,0,2
+timestamp,datetime64[us],0,7416
