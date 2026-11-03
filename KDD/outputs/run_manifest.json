@@ -1,0 +1,75 @@
+{
+  "dataset": "vjchoudhary7/customer-segmentation-tutorial-in-python",
+  "dataset_version": 1,
+  "source_url": "https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/vjchoudhary7/customer-segmentation-tutorial-in-python?datasetVersionNumber=1",
+  "dataset_sha256": "416a4f62a8f33841a16e1db5297f0e05d3b65b05e73632cedae58e739e1e1f77",
+  "python": "3.11.17",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0",
+    "jupyterlab": "4.6.4"
+  },
+  "features": [
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "seed": 42,
+  "selected_k": 5,
+  "training_bounds": {
+    "Annual Income (k$)": [
+      15.0,
+      137.0
+    ],
+    "Spending Score (1-100)": [
+      1.0,
+      99.0
+    ]
+  },
+  "parameters": {
+    "n_init": 20,
+    "max_iter": 300,
+    "tol": 0.0001,
+    "algorithm": "lloyd",
+    "init": "k-means++"
+  },
+  "model_sha256": "767514d3b3cfe5ead17cbefba5ebc7d7bede3e644e0e2ac3c3afa2abc6dbf3a4",
+  "source_sha256": "ad14b54a5660fcb0578255cc172c987e3fd0537b8562e19eccb2235452c40cde",
+  "notebook_code_sha256": "a3aba5a13a1f95eb908c827254fdc4eafb32d92dbe36e08f1cc53d50a7b9d00f",
+  "validation_scope": "all-data internal diagnostics and perturbation stability, not external generalization",
+  "stability_protocol": {
+    "initialization_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "subsample_draw_seed": 42,
+    "subsample_optimizer_seed": 42,
+    "subsamples": 30,
+    "fraction": 0.8,
+    "reselect_k_first_subsamples": 10,
+    "subsample_min_fraction": 0.05
+  },
+  "sensitivity_protocol": {
+    "score_squared_distance_weights": [
+      0.5,
+      1,
+      2
+    ],
+    "rank_score_diagnostic": true
+  }
+}

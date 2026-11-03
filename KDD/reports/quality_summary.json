@@ -1,0 +1,22 @@
+{
+  "source_rows": 200,
+  "analysis_rows": 200,
+  "rows_removed": 0,
+  "missing_cells": 0,
+  "duplicate_rows": 0,
+  "duplicate_non_id_records": 0,
+  "repeated_two_feature_profiles": 4,
+  "income_is_sorted_in_source": true,
+  "Annual Income (k$)_iqr_flags": 2,
+  "Spending Score (1-100)_iqr_flags": 0,
+  "distinct_two_feature_profiles": 196,
+  "profiles_with_multiple_ids": 4,
+  "customers_in_repeated_profiles": 8,
+  "income_iqr_exclusion_diagnostic": {
+    "fit_rows": 198,
+    "primary_rows_retained": 200,
+    "fixed_k": 5,
+    "all_row_ari_to_primary": 0.9847169139719528,
+    "interpretation": "fixed-k influence diagnostic only; no deletion from primary sample"
+  }
+}

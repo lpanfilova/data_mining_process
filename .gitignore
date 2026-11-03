@@ -45,3 +45,9 @@ Thumbs.db
 !SEMMA/outputs/example_profiles.csv
 !SEMMA/outputs/run_manifest.json
 !SEMMA/outputs/test_predictions.csv
+
+# KDD final submission artifacts
+!KDD/outputs/customer_segments.joblib
+!KDD/outputs/example_profiles.csv
+!KDD/outputs/run_manifest.json
+!KDD/outputs/cluster_assignments.csv

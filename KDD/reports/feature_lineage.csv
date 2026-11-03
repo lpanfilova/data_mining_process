@@ -1,0 +1,6 @@
+field,role,known,unverified
+CustomerID,join only,source identifier,person identity and sampling independence
+Gender,descriptive only,source categories Male/Female,collection method and completeness of categories
+Age,descriptive only,source Age column,observation date and source population
+Annual Income (k$),clustering,source k$ units,"currency basis, measurement period and reliability"
+Spending Score (1-100),clustering,source 1-100 score,"formula, inputs, interval scale and cross-customer comparability"

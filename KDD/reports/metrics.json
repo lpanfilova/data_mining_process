@@ -1,0 +1,23 @@
+{
+  "rows": 200,
+  "features": [
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "selected_k": 5,
+  "selection_rule": "highest silhouette for k=2..10 with minimum cluster size 10; smaller-k tie break",
+  "silhouette": 0.5546571631111091,
+  "davies_bouldin": 0.5722356162263351,
+  "calinski_harabasz": 248.64932001536357,
+  "inertia": 65.56840815571681,
+  "smallest_cluster": 22,
+  "negative_silhouette_customers": 2,
+  "initialization_ari_mean": 1.0,
+  "subsample_ari_mean": 0.9892204572640265,
+  "omitted_subsample_ari_mean": 0.9854026349084279,
+  "subsample_ari_min": 0.9579302764297815,
+  "subsample_selected_k_counts": {
+    "5": 10
+  },
+  "per_cluster_jaccard_minimum": 0.9545454545454546
+}

@@ -1,0 +1,21 @@
+{
+  "technical_deliverable": "reproducible conditional two-feature partition",
+  "primary_k": 5,
+  "natural_customer_types_established": false,
+  "five_clusters_claim": "conditional original-representation silhouette optimum; not an invariant or true count",
+  "feature_selection_claim": "chosen income/score projection; no optimality or fairness certification",
+  "evidence_limits": [
+    "weighting can alter preferred k",
+    "all-data reference reused in stability checks",
+    "score provenance and usefulness not validated"
+  ],
+  "score_measurement_validated": false,
+  "marketing_benefit_established": false,
+  "use": "offline description and analyst hypotheses only",
+  "required_before_action": [
+    "score formula, inputs and measurement comparability",
+    "sampling frame, dates and income basis",
+    "independent replication and stakeholder relevance",
+    "consented prospective evaluation of intervention benefit"
+  ]
+}

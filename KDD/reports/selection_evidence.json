@@ -1,0 +1,9 @@
+{
+  "selected_k": 5,
+  "runner_up_k": 6,
+  "silhouette_gap_to_runner_up": 0.014777070432042794,
+  "davies_bouldin_best_k": 5,
+  "calinski_harabasz_best_k": 9,
+  "size_guard_excludes_any_k_2_to_10": false,
+  "interpretation": "conditional silhouette optimum in the specified representation and candidate range, not true-k evidence"
+}

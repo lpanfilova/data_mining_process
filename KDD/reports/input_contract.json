@@ -1,0 +1,12 @@
+{
+  "columns": [
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "income": "nonnegative finite number in source k$ units",
+  "score": "finite number between 1 and 100",
+  "missing_values": "reject; no imputation",
+  "extra_columns": "reject; exclude customer ID, age, gender",
+  "extrapolation": "accepted within feature domain but flagged beyond observed training range",
+  "assignment": "nearest standardized centroid; no probability or novelty detection"
+}

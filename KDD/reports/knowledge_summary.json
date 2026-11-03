@@ -1,0 +1,87 @@
+{
+  "purpose": "descriptive two-feature segmentation, not supervised prediction or causal marketing evidence",
+  "selected_k": 5,
+  "features": [
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "findings": [
+    {
+      "cluster": 0,
+      "customers": 81,
+      "income_center_k_dollars": 55.2962962962963,
+      "spending_score_center": 49.51851851851852
+    },
+    {
+      "cluster": 1,
+      "customers": 39,
+      "income_center_k_dollars": 86.53846153846153,
+      "spending_score_center": 82.12820512820512
+    },
+    {
+      "cluster": 2,
+      "customers": 22,
+      "income_center_k_dollars": 25.727272727272727,
+      "spending_score_center": 79.36363636363636
+    },
+    {
+      "cluster": 3,
+      "customers": 35,
+      "income_center_k_dollars": 88.2,
+      "spending_score_center": 17.114285714285714
+    },
+    {
+      "cluster": 4,
+      "customers": 23,
+      "income_center_k_dollars": 26.304347826086957,
+      "spending_score_center": 20.91304347826087
+    }
+  ],
+  "business_use": "numerical profiles for analyst review and prospective campaign hypotheses only",
+  "finding_role": "summaries of the same supplied features used for construction, not independent behavioral validation",
+  "representation_sensitivity": [
+    {
+      "scenario": "score_weight_0.5",
+      "selected_k": 7,
+      "selected_silhouette": 0.534564536773987,
+      "fixed_primary_k": 5,
+      "fixed_k_ari_to_primary": 0.9696142838314665,
+      "selected_k_ari_to_primary": 0.8821364574788946
+    },
+    {
+      "scenario": "score_weight_1",
+      "selected_k": 5,
+      "selected_silhouette": 0.5546571631111091,
+      "fixed_primary_k": 5,
+      "fixed_k_ari_to_primary": 1.0,
+      "selected_k_ari_to_primary": 1.0
+    },
+    {
+      "scenario": "score_weight_2",
+      "selected_k": 5,
+      "selected_silhouette": 0.5599083848259493,
+      "fixed_primary_k": 5,
+      "fixed_k_ari_to_primary": 0.9711817829669069,
+      "selected_k_ari_to_primary": 0.9711817829669069
+    },
+    {
+      "scenario": "score_rank_equal_weight",
+      "selected_k": 5,
+      "selected_silhouette": 0.5359992164889593,
+      "fixed_primary_k": 5,
+      "fixed_k_ari_to_primary": 0.9149250401183029,
+      "selected_k_ari_to_primary": 0.9149250401183029
+    }
+  ],
+  "score_limitations": [
+    "formula and inputs unavailable",
+    "interval distances unverified",
+    "income/demographic dependence and cross-customer comparability unverified"
+  ],
+  "unresolved": [
+    "sampling representativeness and scoring methodology",
+    "temporal/external replication",
+    "no validated business/measurement basis for weighting despite limited sensitivity checks",
+    "stakeholder usefulness and intervention benefit"
+  ]
+}
