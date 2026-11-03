@@ -1,0 +1,35 @@
+# Local project guidelines
+/AGENTS.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter and tool caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Share portable VS Code settings only
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Keep dataset files and generated artifacts local
+**/data/**
+!**/data/**/
+!**/data/**/.gitkeep
+**/outputs/**
+!**/outputs/**/
+!**/outputs/**/.gitkeep

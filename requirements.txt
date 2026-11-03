@@ -1,0 +1,10 @@
+# Shared baseline for Python 3.11 in the existing langchain Conda environment.
+# Versions are intentionally not locked during initial scaffolding.
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+ipykernel
