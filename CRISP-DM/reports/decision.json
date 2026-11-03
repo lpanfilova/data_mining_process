@@ -1,0 +1,16 @@
+{
+  "analytical_use": "offline educational classification and local scoring only",
+  "technical_point_checks": {
+    "ap_above_prevalence": true,
+    "roc_auc_at_least_080": true,
+    "recall_at_least_060": false
+  },
+  "business_success": "not established: no intervention outcomes or costs",
+  "operational_release": "not approved",
+  "next_steps": [
+    "Define eligible population, scoring date and prospective outcome window with a business owner",
+    "Obtain timestamped pre-outcome predictors and independent dated evaluation data",
+    "Choose threshold/capacity and assess calibration using new validation data and real costs",
+    "Review subgroup errors and consent policy, then test incremental benefit in a randomized pilot"
+  ]
+}

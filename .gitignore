@@ -33,3 +33,9 @@ Thumbs.db
 **/outputs/**
 !**/outputs/**/
 !**/outputs/**/.gitkeep
+
+# CRISP-DM final submission artifacts
+!CRISP-DM/outputs/churn_pipeline.joblib
+!CRISP-DM/outputs/example_profiles.csv
+!CRISP-DM/outputs/run_manifest.json
+!CRISP-DM/outputs/test_predictions.csv

@@ -1,0 +1,111 @@
+{
+  "input_columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "numeric_nonnegative": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "whole_months": [
+    "tenure"
+  ],
+  "categories_after_normalization": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "SeniorCitizen": [
+      "No",
+      "Yes"
+    ],
+    "Partner": [
+      "No",
+      "Yes"
+    ],
+    "Dependents": [
+      "No",
+      "Yes"
+    ],
+    "PhoneService": [
+      "No",
+      "Yes"
+    ],
+    "PaperlessBilling": [
+      "No",
+      "Yes"
+    ],
+    "MultipleLines": [
+      "No",
+      "No phone service",
+      "Yes"
+    ],
+    "InternetService": [
+      "DSL",
+      "Fiber optic",
+      "No"
+    ],
+    "OnlineSecurity": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "OnlineBackup": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "DeviceProtection": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "TechSupport": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "StreamingTV": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "StreamingMovies": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "Contract": [
+      "Month-to-month",
+      "One year",
+      "Two year"
+    ],
+    "PaymentMethod": [
+      "Bank transfer (automatic)",
+      "Credit card (automatic)",
+      "Electronic check",
+      "Mailed check"
+    ]
+  },
+  "missing_values": "imputed using fitted training statistics",
+  "unknown_categories": "reject; schema-valid fold-unseen levels use encoder fallback",
+  "target_and_customer_id": "not accepted as inputs"
+}

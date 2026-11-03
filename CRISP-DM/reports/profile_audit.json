@@ -1,0 +1,6 @@
+{
+  "training_equal_predictor_rows": 26,
+  "training_label_ambiguous_profiles": 11,
+  "policy": "Retain distinct customer IDs; matching attributes do not establish repeated persons.",
+  "test_profiles_matching_a_training_profile": 13
+}

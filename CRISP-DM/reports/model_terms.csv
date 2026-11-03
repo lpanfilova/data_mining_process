@@ -1,0 +1,48 @@
+feature,coefficient
+numeric__tenure,-1.2575936953342741
+categorical__Contract_Two year,-0.7502647749969028
+categorical__InternetService_Fiber optic,0.6485555327124018
+categorical__InternetService_DSL,-0.6436291329480796
+numeric__MonthlyCharges,-0.5970405384528673
+categorical__Contract_Month-to-month,0.5786500633190026
+numeric__TotalCharges,0.5281316743309383
+categorical__PaperlessBilling_No,-0.32934886718420814
+categorical__InternetService_No,-0.29186756403963904
+categorical__OnlineSecurity_No internet service,-0.29186756403963904
+categorical__StreamingMovies_No internet service,-0.29186756403963904
+categorical__StreamingTV_No internet service,-0.29186756403963904
+categorical__TechSupport_No internet service,-0.29186756403963904
+categorical__DeviceProtection_No internet service,-0.29186756403963904
+categorical__OnlineBackup_No internet service,-0.29186756403963904
+categorical__MultipleLines_No,-0.2737644658104688
+categorical__Dependents_Yes,-0.25497629196564986
+categorical__SeniorCitizen_No,-0.21599729784427987
+categorical__StreamingTV_Yes,0.21255928819580824
+categorical__StreamingMovies_Yes,0.2106135304842495
+categorical__PaymentMethod_Credit card (automatic),-0.20963389543615996
+categorical__StreamingTV_No,-0.20763288843148248
+categorical__StreamingMovies_No,-0.20568713071992484
+numeric__missingindicator_TotalCharges,-0.2051482496827606
+categorical__PaymentMethod_Electronic check,0.20447689474476102
+categorical__PaymentMethod_Bank transfer (automatic),-0.1777934835448032
+categorical__OnlineSecurity_No,0.16617677707179632
+categorical__OnlineSecurity_Yes,-0.16125037730746214
+categorical__PhoneService_Yes,-0.1592027558341709
+categorical__Partner_No,-0.15574207861289577
+categorical__gender_Female,-0.15432684674270994
+categorical__TechSupport_No,0.1400992674573457
+categorical__TechSupport_Yes,-0.1351728676930131
+categorical__gender_Male,-0.13261431753259367
+categorical__Partner_Yes,-0.13119908566241978
+categorical__MultipleLines_No phone service,-0.12773840844115536
+categorical__PhoneService_No,-0.12773840844115536
+categorical__Contract_One year,-0.11532645259740656
+categorical__MultipleLines_Yes,0.11456170997630613
+categorical__PaymentMethod_Mailed check,-0.10399068003912017
+categorical__SeniorCitizen_Yes,-0.07094386643102608
+categorical__PaperlessBilling_Yes,0.042407702908904284
+categorical__OnlineBackup_No,0.04119579088811273
+categorical__OnlineBackup_Yes,-0.03626939112378814
+categorical__Dependents_No,-0.03196487230966953
+categorical__DeviceProtection_Yes,0.03138229178965765
+categorical__DeviceProtection_No,-0.02645589202531922
