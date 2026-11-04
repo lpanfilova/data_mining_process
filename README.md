@@ -4,9 +4,9 @@ Three independent Python data science projects exploring data mining methodologi
 
 | Project | Methodology | Dataset | YouTube walkthrough |
 | --- | --- | --- | --- |
-| [CRISP-DM](CRISP-DM/README.md) | Cross-Industry Standard Process for Data Mining | Telco Customer Churn | _Link to be added_ |
-| [SEMMA](SEMMA/README.md) | Sample, Explore, Modify, Model, Assess | Seoul Bike Sharing Demand | _Link to be added_ |
-| [KDD](KDD/README.md) | Knowledge Discovery in Databases | Mall Customers | _Link to be added_ |
+| [CRISP-DM](CRISP-DM/README.md) | Cross-Industry Standard Process for Data Mining | Telco Customer Churn | https://youtu.be/ZnpTPRuahiE?si=G1kNosO7mVKsQgGO |
+| [SEMMA](SEMMA/README.md) | Sample, Explore, Modify, Model, Assess | Seoul Bike Sharing Demand | https://youtu.be/R9tj9CUK348?si=atC90PT-9mMSWFeZ |
+| [KDD](KDD/README.md) | Knowledge Discovery in Databases | Mall Customers | https://youtu.be/6Bp6MUctWt8?si=p6GMkTta18Gl_Ef5 |
 
 ## Setup
 
